@@ -1,0 +1,15 @@
+﻿@page "{id}/{id2}"
+@model TestPageModel
+@{
+    ViewData["Title"] = "TestPage";
+}
+<div>
+    Hello World!!
+</div>
+<div>
+    @ViewData["id"] <p></p>
+    @ViewData["id2"]
+</div>
+<div>
+    @Model.Field1
+</div>

@@ -1,0 +1,13 @@
+﻿@page
+@model RazorPageTest.Pages.TestPage2Model
+@{
+    ViewData["Title"] = "TestPage2";
+}
+
+<h2>TestPage2</h2>
+@Model.Field1
+<form method="post">
+    Name: <input type="text" asp-for="Name" /> <br>
+    Other: <input type="text" name="testaaa3" /> <br>
+    <input type="submit" value="Submit" />
+</form>
